@@ -1,5 +1,5 @@
 var request = $.ajax({
-    type: "POST",
+    type: "GET",
     url: "https://s3.amazonaws.com/media.mobstac.com/test/slideshow.json",
     dataType:"json",
     success: function(data){
